@@ -5,7 +5,7 @@ let connection;
 if(process.env.JAWSDB_URL) {
   connnection = mysql.createConnection(JAWSDB_URL);
 } else {
-  var connection = mysql.createConnection({
+  connection = mysql.createConnection({
     host: "localhost",
     user: "root",
     password: "",

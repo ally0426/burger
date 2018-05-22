@@ -25,5 +25,6 @@
     "url": "https://github.com/ally0426/burger/issues"
   },
   "homepage": "https://github.com/ally0426/burger#readme",
-  "description": ""
+  "description": "DB folder is created and schema.sql is added to that foler to write SQL queries:",
+  "keywords": []
 }
