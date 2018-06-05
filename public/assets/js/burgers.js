@@ -2,7 +2,7 @@ $(function () {
   $(".deleteBurger").on("click", (event) => {
     var id = $(this).data("burgerid");
 
-    $.ajax("/burgers/" + id, {
+    $.ajax("/burgers/:id", {
       type: "DELETE"
     }).then(() => {
       console.log("deleted id " + id);
@@ -18,7 +18,7 @@ $(function () {
       burger: $("#createBurger [name=burger]").val().trim()
     }
 
-    $.ajax("/burgers/" + id, {
+    $.ajax("/burgers/:id", {
       type: "POST",
       data: newBurger
     }).then(() => {
@@ -36,7 +36,7 @@ $(function () {
       burger: $("#updateBurger [name=burger]").val().trim()
     }
 
-    $.ajax("/burgers/" + id, {
+    $.ajax("/burgers/:id", {
       type: "PUT",
       data: updatedBurger
     }).then(() => {
