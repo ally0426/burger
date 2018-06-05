@@ -17,7 +17,7 @@ app.set("view engine", "handlebars");
 app.use(routes);
 
 app.listen((process.env.PORT || 8080), () => {
-  console.log(`Listening on Port ${PORT}`);
+  console.log(`Listening on Port`);
 });
 
 
