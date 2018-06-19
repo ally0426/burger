@@ -1,6 +1,7 @@
 {
   "name": "burger",
   "version": "1.0.0",
+  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,22 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.18.3",
+    "body-parser": "^1.18.2",
     "express": "^4.16.3",
     "express-handlebars": "^3.0.0",
     "method-override": "^2.3.10",
-    "mysql": "^2.15.0",
-    "mysql2": "^1.5.3"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ally0426/burger.git"
-  },
-  "bugs": {
-    "url": "https://github.com/ally0426/burger/issues"
-  },
-  "homepage": "https://github.com/ally0426/burger#readme",
-  "description": "DB folder is created and schema.sql is added to that foler to write SQL queries:",
-  "keywords": []
+    "mysql": "^2.15.0"
+  }
 }
